@@ -1,0 +1,108 @@
+.restaurants-card{
+    margin: 12px 0px 24px 0px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid transparent;
+}
+
+.restaurants-card:hover{
+    box-shadow: rgba(28, 28, 28, 0.12) 0px 0.4rem 1.8rem;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+}
+
+.restaurants-card-cover{
+    height: 248px;
+    width: 328px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.restaurants-card-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.discounts{
+    position: absolute;
+    bottom: 1.2rem;
+    left: 0%;
+    background: linear-gradient(90deg, rgb(17, 85, 203) 0%, rgb(83, 140, 238) 25%, rgb(17, 85, 203) 50%, rgba(17, 85, 203, 0.8) 80%, rgba(17, 85, 203, 0) 100%);
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    border-radius: 0px 0.2rem 0.2rem 0px;
+    text-overflow: ellipsis;
+    max-width: calc(100% - 2.4rem);
+    white-space: nowrap;
+    padding: 0px 0.6rem;
+    font-size: 1rem;
+    margin: 0px 0px 1rem;
+    line-height: 1.8rem;
+}
+
+.res-row{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0px 6px;
+}
+
+.res-name{
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--heading-text);
+}
+
+.res-rating{
+    padding: 0px 8px;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--primary-bg);
+    background-color: var(--tag-green);
+    height: 24px;
+}
+
+.res-rating-i{
+    font-size: 10px;
+    margin-left: 2px;
+}
+
+.res-cuisine{
+    max-width: 56%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+.res-cuisine-tag{
+    margin-right: 4px;
+    color: var(--inactive-text);
+}
+
+.approx-Price{
+    font-size: 14px;
+    color: var(--inactive-text);
+}
+
+.locality{
+    color: rgb(156, 156, 156);
+}
+
+.distance{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.6rem;
+    color: rgb(54, 54, 54);
+}
+
+.closetime{
+    color: rgb(229, 82, 31);
+    padding: 0px 0px 0.4rem;
+    font-size: 15px;
+    line-height: 1.7rem;
+}

@@ -1,0 +1,141 @@
+.india{
+    width: 2.8rem;
+    height: 1.8rem;
+    display: inline-block;
+    background: url("https://b.zmtcdn.com/data/webuikit/0687ff554c86e36cda9498212e221af61563274375.png") -141px 0px no-repeat;
+    transform: scale(0.488889);
+    /* margin-left: -1.2rem; */
+}
+
+.footer-container{
+    width: 100%;
+    background: rgb(248, 248, 248);
+    -moz-box-pack: center;
+    justify-content: center;
+    padding: 4rem 2rem;
+}
+
+.footer-top{
+    display: flex;
+    -moz-box-align: center;
+    align-items: center;
+    width: 100%;
+    -moz-box-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.footer-logo{
+    height: 2rem;
+    width: 10rem;
+}
+
+.footer-settings{
+    display: flex;
+    right: 0;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.footer-location{
+    display: flex;
+    /* box-sizing: border-box; */
+    border: 2px solid var(--gray);
+    cursor: pointer;
+    padding: 2px 1px;
+    margin-right: 2rem;
+    border-radius: 5px;
+}
+
+.footer-country{
+    font-size: 1rem;
+    line-height: 1rem;
+    max-width: 80%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: rgb(28, 28, 28);
+    margin: 0px 0.5rem 0px 0px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+.footer-icon{
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.footer-header{
+    font-size: 15px;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0px 0px 1.2rem;
+}
+.footer-body{
+    justify-content: space-around;
+}
+.footer-item{
+    font-size: 1rem;
+    line-height: 2rem;
+    color: rgb(105, 105, 105);
+    margin: 0.5rem 0px;
+}
+
+.footer-item:hover{
+    color: rgb(28, 28, 28);
+}
+
+.footer-apps-img img{
+    width: 8rem;
+    height: 3rem;
+    border: none;
+    border-radius: 5px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    margin-left: -3rem;
+}
+
+li{
+    list-style: none;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 50%;
+    padding: 5px;
+    justify-content: center;
+    margin-right: 1rem;
+    width: 20px;
+    height: 20px;
+}
+
+.footer-social-icon{
+    font-size: 12px;
+    justify-content: center;
+    margin-left: 5px;
+}
+
+.footer-credit{
+    color: rgb(79, 79, 79);
+    margin-top: 1rem;
+}
+
+.footer-divider{
+    border-color: rgb(207, 207, 207) currentcolor currentcolor;
+    border-width: 1px 0px 0px;
+    border-style: solid none none;
+    border-image: none;
+}

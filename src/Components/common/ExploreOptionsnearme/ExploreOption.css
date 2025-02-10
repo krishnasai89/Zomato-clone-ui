@@ -1,0 +1,29 @@
+.exploreoption{
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.exploreoption-box-dropdown{
+    border-color: rgb(232, 232, 232) rgb(232, 232, 232) currentcolor;
+    opacity: 1;
+    pointer-events: auto;
+    border-style: solid solid none;
+    background: rgb(255, 255, 255);
+    box-sizing: border-box;
+    border-width: 1px 1px medium;
+    padding: 30px 40px;
+    box-shadow: 2px 4px 6px var(--gray);
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.exploreoption-name{
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.dropdown{
+    font-size: 17px;
+    font-weight: 500;
+}

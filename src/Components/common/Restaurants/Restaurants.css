@@ -1,0 +1,9 @@
+.Restaurants-section{
+    margin-top: 16px;
+}
+
+.restaurants-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
